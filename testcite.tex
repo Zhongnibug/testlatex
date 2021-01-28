@@ -1,0 +1,21 @@
+%引言区
+\documentclass{article}
+\usepackage{ctex}
+\usepackage[sorting=none]{biblatex}
+\addbibresource{cnks.bib}
+
+\title{My First}
+\author{Ningkai Zhong}
+\date{\today}
+
+%正文区
+\begin{document}
+\maketitle
+这是来自知网的引用： \cite{weilai}
+
+知网其他文献： \parencite{beijin}
+
+上标引用： \supercite{jiyuhe}
+
+\printbibliography[title=参考文献]
+\end{document}
